@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T17:57:46.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" version="24.6.1" etag="KAy1_81ik0r2JXM2NteR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T18:20:19.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 OPR/109.0.0.0" etag="Uef_eqjXj_Cgjj50CAmC" version="24.6.1" type="github">
   <diagram name="Page-1" id="WeAYu-ve6qJdO0fvZuEQ">
-    <mxGraphModel>
+    <mxGraphModel dx="961" dy="544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-1" value="0" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="376" y="400" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-2" value="Sistema Clínica Médica" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="-GneQWOaJtmQ56D9OEpH-1">
+          <mxGeometry y="50" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-GneQWOaJtmQ56D9OEpH-4" target="-GneQWOaJtmQ56D9OEpH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-16" value="Informacion para la ficha médica" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-GneQWOaJtmQ56D9OEpH-15">
+          <mxGeometry x="-0.1747" y="3" relative="1" as="geometry">
+            <mxPoint x="-17" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-4" value="Paciente" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="760" y="422.5" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-8" value="Médico" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="303" y="731" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-10" value="Administracion" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="144" y="537" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-GneQWOaJtmQ56D9OEpH-4" target="-GneQWOaJtmQ56D9OEpH-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="784" y="423" />
+              <mxPoint x="784" y="403" />
+              <mxPoint x="648" y="403" />
+              <mxPoint x="648" y="401" />
+              <mxPoint x="567" y="401" />
+              <mxPoint x="567" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-GneQWOaJtmQ56D9OEpH-20" value="Informacion para la cita medica" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-GneQWOaJtmQ56D9OEpH-19">
+          <mxGeometry x="0.1706" relative="1" as="geometry">
+            <mxPoint x="29" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
